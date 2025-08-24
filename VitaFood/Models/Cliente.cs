@@ -26,6 +26,6 @@ namespace VitaFood.Models
         public Zona Zona { get; set; }
 
         // Relaciones
-        public ICollection<Pedido> Pedidos { get; set; }
+        public ICollection<Pedido> Pedidos { get; set; } = new List<Pedido>();
     }
 }
